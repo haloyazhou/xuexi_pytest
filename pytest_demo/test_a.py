@@ -25,3 +25,7 @@ def test_2():
 def test_4():
     a = "6*9"
     assert eval(a) == 54
+
+def test_41():
+    a = "6*9"
+    assert eval(a) == 54
