@@ -29,3 +29,7 @@ def test_4():
 def test_41():
     a = "6*9"
     assert eval(a) == 54
+
+def test_11():
+    a = "3+5"
+    assert eval(a) == 8
