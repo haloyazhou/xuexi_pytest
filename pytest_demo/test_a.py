@@ -33,3 +33,7 @@ def test_41():
 def test_11():
     a = "3+5"
     assert eval(a) == 8
+
+def test_qw11():
+    a = "3+5"
+    assert eval(a) == 8
