@@ -1,8 +1,9 @@
 import pytest
-
+import allure
 '''
 笛卡尔积
 '''
+@allure.title("3+5")
 @pytest.mark.parametrize("x", [0, -1, 2])
 @pytest.mark.parametrize("y", [0, -2, 3])
 def test_func(x, y):
