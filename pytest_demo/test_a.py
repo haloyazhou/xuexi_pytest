@@ -15,19 +15,19 @@ class Test_ad():
 
 
     @allure.title("3+5")
-    def test_1():
+    def test_1(self):
         a = "3+5"
         assert eval(a) == 8
 
     @allure.title("2+43")
-    def test_2():
+    def test_2(self):
         a = "2+4"
         assert eval(a) == 6
     @allure.title("2+42")
-    def test_4():
+    def test_4(self):
         a = "6*9"
         assert eval(a) == 54
     @allure.title("2+41")
-    def test_41():
+    def test_41(self):
         a = "6*9"
         assert eval(a) == 54
